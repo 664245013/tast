@@ -24,6 +24,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+with st.sidebar:
+    st.image("images/pond.jpg", width=120)   # ← เพิ่มบรรทัดนี้
+    st.title("GraphBook")
 
 st.markdown(
     """
